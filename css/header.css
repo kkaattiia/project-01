@@ -5,7 +5,10 @@
 .logo_link,
 .navigation_wrapper,
 .navigation-main,
-.social {
+.social,
+.navigation_item,
+.social_list,
+.social_item {
     
     margin: 0;
     padding: 0;
@@ -123,7 +126,7 @@
 .social_item {
     list-style: none;
     font-size: 20px;
-    margin-left: 13px
+    margin-left: 20px
 }
 
 .social_list .social_item  {
@@ -133,3 +136,5 @@
 .social_item:hover {
     color: #11749e;
 }
+
+/*social*/
