@@ -29,15 +29,15 @@
 .group16_text {
     display: block;
     position: absolute;
-    text-align: center;
     top: 392px;
     left: 0;
     right: 0;
+    text-align: center;
 }
 
 h1 {
-    font-family: "GothamBold";
-    font-size: 152px;
+     font-family: "GothamBold";
+     font-size: 152px;
  
 }
 
@@ -61,12 +61,42 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
+    height: 102px;
 }
 
 .scrolldown{
+   
     font-family: "OpenSans",sans-serif;
     font-size: 13px;
+    line-height: 22px;
+   
+}
+.btn-scroll{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 797px;
+    width: 68px;
+    height: 68px;
+
+}      
+
+
+.btn-scroll{
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+  
+.btn-scroll i {
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 24px
 }
 
 
-            
+   
+.btn-scroll :hover {
+    color: #11749e;
+    font-size: 23px
+}
+             
