@@ -1,0 +1,13 @@
+.news,
+article,
+.news1_news,
+.time_news,
+.news1_link,
+.title_news,
+.text_news,
+.img_news,
+.news1_link,
+.news2_news {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,111 @@
+.about,
+.about_text,
+.all_feature,
+.feature,
+.btn_feature {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    
+    display: block;
+    font-family: "GothamMedium",sans-serif;
+    background:  #11749e;
+    background-image: url(../img/background/W.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    text-align: center;
+    height: 738px;
+
+}
+
+.about_text {
+    display:inline-block;
+    font-size: 37px;
+    line-height: 45.06px;
+    margin-top: 170px;
+    width: 625px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    
+}
+
+.all_feature {
+    list-style: none;
+    height: 395px;
+    margin-top: 125px;
+}
+
+.feature {
+    display: block;
+    list-style: none;
+   
+}
+
+.all_feature {
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+.btn_feature {
+    display: block;
+    width: 133px;
+    height: 133px;
+    margin: 0 84px;
+    
+   background-image: url(../img/sprity/sprity.png);
+}
+
+
+   
+.btn_feature.one:hover {
+    background-position: 0 -133px;
+    
+}
+
+.btn_feature.two {
+    background-position: -133px 0;
+}
+
+.btn_feature.two:hover {
+    background-position: -133px -133px;
+}
+
+.btn_feature.three {
+    background-position: -266px 0;
+}
+
+.btn_feature.three:hover {
+    background-position: -266px -133px;
+}
+
+.btn_feature.four {
+    background-position: -399px 0;
+}
+
+.btn_feature.four:hover {
+    background-position: -399px -133px;
+}
+
+
+
+.feature_name {
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.feature-text {
+    font-family: "GothamBook", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+    
+
+
+
+
+
+
