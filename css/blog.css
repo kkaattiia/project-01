@@ -1,0 +1,94 @@
+.blogarea,
+.aboutblog,
+.aboutblog_text,
+.text_aboutblog,
+.blog_container{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.blogarea {
+    display: block;
+    background: #ffffff;
+    color: #222222;
+    background-image: url(../img/background/B.png);
+    background-repeat: no-repeat;
+    background-position: center 92px;
+    text-align: center;
+    height: 1017px;
+}
+
+.aboutblog_text {
+    display: inline-block;
+    font-family: "GothamMedium", sans-serif;
+    font-size: 37px;
+    line-height: 45px;
+    margin-top: 157px;
+    word-spacing: 8px;
+}
+
+.text_aboutblog {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 95px;
+    word-spacing: 10px;
+    font-family: sans-serif;
+}
+
+.blog_container {
+    list-style: none;
+    height: 502px;
+    margin-top: 75px;
+}
+
+
+.blog_list {
+    display: block;
+    list-style: none;
+   
+}
+
+.blog_container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blog {
+    display: block;
+    width: 270px;
+    height: 280px;
+    margin: 0 15px;
+    
+    background-image: url(../img/sprity/spriteblog.jpg);
+}
+
+.blog.two {
+    background-position: -270px 0;
+}
+
+.blog.three {
+    background-position: -540px 0;
+}
+
+.blog.four {
+    background-position: -810px 0;
+}
+
+.blog_title {
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #11749e;
+}
+
+.blog_text {
+    font-size: 15px;
+    line-height: 24px;
+}
+    
+
+
+ /
