@@ -1,0 +1,39 @@
+.quiqaction_conteiner,
+.quiqaction1,
+.quiqaction2,
+.quiqaction_img,
+.quiqaction_text {
+    margin: 0,
+    pading: 0
+}
+
+.quiqaction_conteiner {
+    display: block;
+    height: 355px;
+    background-color: #11749e;
+    
+}
+
+.quiqaction1 {
+    float: left;
+    width: 50%;
+    margin-top: 105px;
+}
+
+.quiqaction2 {
+    float: right;
+    width: 50%;
+    margin-top: 105px;
+}
+
+.quiqaction_img {
+    display: block;
+    float: left;
+    margin: 0 17px;
+}
+
+.quiqaction_text {
+    float: left;
+    margin: 0 17px;
+}
+
