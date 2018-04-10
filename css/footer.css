@@ -1,0 +1,19 @@
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    display: block;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.img_design {
+    display: block;
+    float: right;
+    padding-top: 10px;
+    
+}
