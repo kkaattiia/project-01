@@ -1,0 +1,75 @@
+.keyfeature,
+.feature_conteiner,
+.feature_title,
+.feature_text,
+.key,
+.key1,
+.key2,
+.key3,
+.imgkey {
+    margin: 0;
+    padding: 0;
+}
+
+.keyfeature {
+    display: block;
+    height: 850px;
+    background: url(../img/background/keyfeature.jpg);
+    overflow: hidden;
+    background-size: 100%;
+}
+.feature_conteiner {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.imgkey {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.feature_title {
+    font-family: "GothamMedium", sans-serif;
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 220px;
+    margin-left: 20px;   
+}
+
+.feature_text {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.key {
+    display: block;
+    margin-left: 20px;
+    margin-top: 65px;
+    font-family: "GothamMedium", sans-serif;
+}
+
+.key1, .key2, .key3 {
+    background-color: #11749e;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+.key1 {
+    width: 360px;
+    
+}
+
+.key2 { 
+    width: 390px;
+    margin-top: 20px;
+}
+
+.key3 {
+    width: 420px;
+    margin-top: 20px;
+}
