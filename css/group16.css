@@ -89,4 +89,9 @@ h1 {
 
 .btn_scroll {
     text-align: center;
+}
+
+.btn_scroll:hover {
+    background-color: #11749e;
+}
 
