@@ -100,5 +100,21 @@
     background-image: url(../img/background/map.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
+    background-size: 100%;  
 }
 
+#contact_form .messege_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .tel_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .email_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .name_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
