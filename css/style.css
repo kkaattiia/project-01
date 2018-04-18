@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "GothamBook"
+    font-family: "GothamBook";
     src: url("../fonts/Gotham/GothamBook.ttf") format("truetype");
         
     font-weight: normal;
@@ -10,13 +10,13 @@
     font-family: "GothamBold";
     src: url("../fonts/Gotham/GothamBold.ttf")format("truetype");
         
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "GothamMedium";
-    src: url ("../fonts/Gotham/GothamMedium.ttf")format("truetype");
+    src: url("../fonts/Gotham/GothamMedium.ttf")format("truetype");
         
     font-weight: 500;
     font-style: normal;
