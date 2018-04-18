@@ -27,7 +27,7 @@
     margin-top: 170px;
     width: 625px;
     text-transform: uppercase;
-    word-spacing: 10px;
+   
     
 }
 
@@ -97,6 +97,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+    
 .feature-text {
     font-family: "GothamBook", sans-serif;
     font-size: 15px;

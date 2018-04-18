@@ -17,13 +17,13 @@
 .quiqaction1 {
     float: left;
     width: 50%;
-    margin-top: 105px;
+    padding-top: 105px;
 }
 
 .quiqaction2 {
     float: right;
     width: 50%;
-    margin-top: 105px;
+    padding-top: 105px;
 }
 
 .quiqaction_img {

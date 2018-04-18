@@ -64,15 +64,15 @@
 }
 .news1_text {
     display: block;
-    margin-top: 80px;
-    margin-left: 200px;
+    padding-top: 80px;
+    padding-left: 200px;
     
 }
 
 .news2_text {
     display: block;
-    margin-top: 100px;
-    margin-left: 75px;
+    padding-top: 100px;
+    padding-left: 75px;
     color: #000000;
 }
 
