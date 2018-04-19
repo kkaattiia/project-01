@@ -1,3 +1,5 @@
+/*fonts*/
+
 @font-face {
     font-family: "GothamBook";
     src: url("../fonts/Gotham/GothamBook.ttf") format("truetype");
@@ -29,3 +31,945 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/*header*/
+
+.page_header,
+.logo,
+.logo_link,
+.navigation_wrapper,
+.navigation-main,
+.social,
+.navigation_item,
+.social_list,
+.social_item {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.page_header {
+    display: block;
+    width: 100%;
+    height: 95px;
+    padding-top: 20px;
+    margin-bottom: -115px;
+    border-bottom-width : 1px;
+    border-bottom-style : solid;	
+    border-bottom-color : #7b7b7b;
+    background-color: transparent;
+  
+    position: relative;
+    z-index: 1;
+}
+
+/*header*/
+/*logo*/
+
+.logo {
+     float:left;
+     margin: 0 15px;
+     width: 80px;
+    border: none;
+}
+    
+.logo_link {
+  
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    line-height: 0;
+    outline: none; 
+  
+}  
+
+/*navigation*/
+
+ .navigation_wrapper {
+    float: left;
+    margin: 0 15px;
+    display: block;
+    width: 860px;
+    margin-top: 30px;
+   
+}
+
+.navigation-main {
+  
+    list-style: none;
+    text-align: right;
+   
+    
+  
+}
+
+.navigation-main .navigation_item {
+  
+    display: inline-block;
+    
+}
+
+.navigation_item {
+  
+    list-style: none;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    height: 60px
+    
+}
+   
+       
+.navigation_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ .navigation_item:hover { 
+     border-bottom-width : 6px;
+     border-bottom-style : solid;	
+     border-bottom-color : #11749e;
+}
+
+/*naigation*/
+/*social*/
+.social {
+    float: right;
+    margin: 0  15px;
+    display: block;
+    width: 170px;
+}
+
+.social_list  {
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+    
+}
+
+
+.social_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social_item {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 20px
+}
+
+.social_list .social_item  {
+    display: inline-block;
+}
+
+.social_item:hover {
+    color: #11749e;
+}
+
+/*social*/
+
+/*group16*/
+
+.page_content,
+.group16,
+.group16_text,
+.group16_text-title,
+.group16_text-text,
+.scroll,
+.scrolldown,
+.btn-scroll {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.page_content{
+    display: block;
+    width: 100%;
+}
+
+.group16 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 880px;
+    background: url(../img/background/group16_1.jpg);
+    
+}
+
+.group16_text {
+    display: block;
+    position: absolute;
+    top: 392px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+h1 {
+     font-family: "GothamBold";
+     font-size: 152px;
+ 
+}
+
+.group16_text-text{
+    margin-top: 85px;
+    font-family: "GothamMedium",  sans-serif ;
+    font-size: 24px;
+    line-height: 51px;
+    letter-spacing: 20px;
+    color: #11749e;
+    text-transform:uppercase;
+    font-weight: 600;
+
+}
+
+
+.btn_scroll {
+    display: block;
+    width: 68px;
+    height: 68px;
+    border: 1px solid #ffffff;
+    border-radius: 50%
+    
+}
+
+.scrolldown{
+   
+    font-family: "OpenSans",sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.link-scroll i {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+.scroll {
+    display: block;
+    position: absolute;
+    top: 670px;
+    left: 50%;
+    margin-left: -34px;
+}
+
+.btn_scroll {
+    text-align: center;
+    transition: background-color 1.5s;
+}
+
+.btn_scroll:hover {
+    background-color: #11749e;
+}
+
+/*about*/
+
+.about,
+.about_text,
+.all_feature,
+.feature,
+.btn_feature {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    
+    display: block;
+    font-family: "GothamMedium",sans-serif;
+    background:  #11749e;
+    background-image: url(../img/background/W.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    text-align: center;
+    height: 738px;
+
+}
+
+.about_text {
+    display:inline-block;
+    font-size: 37px;
+    line-height: 45.06px;
+    margin-top: 170px;
+    width: 625px;
+    text-transform: uppercase;
+   
+    
+}
+
+.all_feature {
+    list-style: none;
+    height: 395px;
+    margin-top: 125px;
+}
+
+.feature {
+    display: block;
+    list-style: none;
+   
+}
+
+.all_feature {
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+.btn_feature {
+    display: block;
+    width: 133px;
+    height: 133px;
+    margin: 0 84px;
+    
+   background-image: url(../img/sprity/sprity.png);
+}
+
+
+   
+.btn_feature.one:hover {
+    background-position: 0 -133px;
+    
+}
+
+.btn_feature.two {
+    background-position: -133px 0;
+}
+
+.btn_feature.two:hover {
+    background-position: -133px -133px;
+}
+
+.btn_feature.three {
+    background-position: -266px 0;
+}
+
+.btn_feature.three:hover {
+    background-position: -266px -133px;
+}
+
+.btn_feature.four {
+    background-position: -399px 0;
+}
+
+.btn_feature.four:hover {
+    background-position: -399px -133px;
+}
+
+
+
+.feature_name {
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+    
+.feature-text {
+    font-family: "GothamBook", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+    
+/*news*/
+
+.news,
+.news1_1,
+.news2_2,
+.news1,
+.news2,
+.img_news1,
+.img_news2,
+.news1_text,
+.news2_text
+ {
+    margin: 0;
+    padding: 0;
+}
+
+.news {
+    display: block;
+    width: 100%;
+    height: 921px;
+}
+
+.news1 {
+    display: block;
+    height: 447px;
+    background: #222222;
+}
+
+.news1_1 {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 447px;
+    
+}
+
+.img_news1 {
+    display: block;
+    float: right;
+    width: 50%;
+    overflow: hidden;
+    height: 447px;
+ 
+}
+
+.news2 {
+    display: block;
+    height: 474px;
+    background: #f3f3f3;
+}
+
+.img_news2 {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 474px;
+    overflow: hidden;
+    
+}
+
+.news2_2 {
+    display: block;
+    float: right;
+    width: 50%;
+    height: 474px;
+}
+.news1_text {
+    display: block;
+    padding-top: 80px;
+    padding-left: 200px;
+    
+}
+
+.news2_text {
+    display: block;
+    padding-top: 100px;
+    padding-left: 75px;
+    color: #000000;
+}
+
+.time_news {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.news1_link,
+.news2_link {
+     text-decoration: none;
+     color: inherit;
+}
+
+.title_news {
+    font-family: "GothamMedium", sans-serif;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.text_news {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 27px;
+}
+
+/*blog*/
+
+.blogarea,
+.aboutblog,
+.aboutblog_text,
+.text_aboutblog,
+.blog_container{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.blogarea {
+    display: block;
+    background: #ffffff;
+    color: #222222;
+    background-image: url(../img/background/B.png);
+    background-repeat: no-repeat;
+    background-position: center 92px;
+    text-align: center;
+    height: 1017px;
+}
+
+.aboutblog_text {
+    display: inline-block;
+    font-family: "GothamMedium", sans-serif;
+    font-size: 37px;
+    line-height: 45px;
+    margin-top: 157px;
+  
+}
+
+.text_aboutblog {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 95px;
+    font-family: sans-serif;
+}
+
+.blog_container {
+    list-style: none;
+    height: 502px;
+    margin-top: 75px;
+}
+
+
+.blog_list {
+    display: block;
+    list-style: none;
+   
+}
+
+.blog_container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blog {
+    display: block;
+    width: 270px;
+    height: 280px;
+    margin: 0 15px;
+    
+    background-image: url(../img/sprity/spriteblog.jpg);
+}
+
+.blog.two {
+    background-position: -270px 0;
+}
+
+.blog.three {
+    background-position: -540px 0;
+}
+
+.blog.four {
+    background-position: -810px 0;
+}
+
+.blog_title {
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #11749e;
+}
+
+.blog_text {
+    font-size: 15px;
+    line-height: 24px;
+}
+    
+/*quiqaction*/
+
+.quiqaction_conteiner,
+.quiqaction1,
+.quiqaction2,
+.quiqaction_img,
+.quiqaction_text {
+    margin: 0;
+    padding: 0;
+}
+
+.quiqaction_conteiner {
+    display: block;
+    height: 355px;
+    background-color: #11749e;
+    
+}
+
+.quiqaction1 {
+    float: left;
+    width: 50%;
+    padding-top: 105px;
+}
+
+.quiqaction2 {
+    float: right;
+    width: 50%;
+    padding-top: 105px;
+}
+
+.quiqaction_img {
+    display: block;
+    float: left;
+    margin: 0 17px;
+}
+
+.quiqaction_text {
+    float: left;
+    margin: 0 17px;
+}
+
+/*keyfeature*/
+
+.keyfeature,
+.feature_conteiner,
+.feature_title,
+.feature_text,
+.key,
+.key1,
+.key2,
+.key3,
+.imgkey {
+    margin: 0;
+    padding: 0;
+}
+
+.keyfeature {
+    display: block;
+    height: 850px;
+    background: url(../img/background/keyfeature.jpg);
+    overflow: hidden;
+    background-size: 100%;
+}
+.feature_conteiner {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.imgkey {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.feature_title {
+    font-family: "GothamMedium", sans-serif;
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 220px;
+    margin-left: 20px;   
+}
+
+.feature_text {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.key {
+    display: block;
+    margin-left: 20px;
+    margin-top: 65px;
+    font-family: "GothamMedium", sans-serif;
+}
+
+.key1, .key2, .key3 {
+    background-color: #11749e;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+}
+
+.key1 {
+    width: 360px;
+    
+}
+
+.key2 { 
+    width: 390px;
+    margin-top: 20px;
+}
+
+.key3 {
+    width: 420px;
+    margin-top: 20px;
+}
+
+/*team*/
+
+.team_conteiner,
+.team_title,
+.team_text,
+.ourteam,
+.ourteam_container,
+.ourteam_list,
+.foto_team,
+.name_container,
+.name_team,
+.avocation {
+    margin: 0;
+    padding: 0;
+}
+
+.team_conteiner {
+    display: block;
+    position: relative;
+    background: #ffffff;
+    color: #222222;
+    background-image: url(../img/background/T.png);
+    background-repeat: no-repeat;
+    background-position: center 67px;
+    text-align: center;
+    height: 944px;
+   
+}
+
+.team_title {
+    display: inline-block;
+    font-family: "GothamMedium" , sans-serif;
+    font-size: 37.55px;
+    line-height: 45px;
+    margin-top: 130px;
+    
+}
+
+.team_text {
+    font-size: 30.6px;
+    line-height: 37px;
+    margin-top: 125px;
+    font-family: "GothamBook", sans-serif;
+}
+
+.ourteam_container {
+    list-style: none;
+    height: 430px;
+    margin-top: 68px;
+}
+
+.ourteam_list {
+    display: block;
+    list-style: none;   
+}
+
+.ourteam_container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto_team {
+    
+    width: 269px;
+    height: 414px;
+    margin: 0 15px;
+
+    
+    background-image: url(../img/sprity/spriteteam.png)
+        
+     
+}
+
+.foto_team {
+    display: block;
+    position: relative;
+}
+
+
+
+.foto_team.two {
+    background-position: -270px 0;
+}
+
+.foto_team.three {
+    background-position: -540px 0;
+}
+
+.foto_team.four {
+    background-position: -809px 0;
+}
+
+.name_team {
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #11749e;
+}
+
+.avocatoin {
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -5px
+    
+}
+
+.name_container {
+    display: block;
+    position: absolute;
+    font-family: "GothamMedium" , sans-serif;
+    margin-left: 45px;
+    width: 217px;
+    bottom: 85px;
+    background-color: #ffffff;
+    
+}
+
+.name_container.two {
+    margin-left: 43px;
+}
+
+.name_container.tree {
+    margin-left: 43px;
+}
+ 
+.name_container.one {
+    margin-left: 43px;
+}
+
+.name_container.four {
+    margin-left: 43px;
+}
+
+/*contactarea*/
+
+.contactarea_container,
+.contactarea_text,
+.contactarea_form,
+
+.name_form,        
+.email_form,
+.tel_form,
+.messege_form,
+.submit_form,
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+.contactarea_container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1180px; 
+}
+
+.c_background {
+    display: block;
+    position: absolute;
+    background: url(../img/background/C.png);
+    width: 120px;
+    height: 182px;
+    top: 155px;
+    left: 50%;
+    margin-left: -60px;
+    
+}
+
+.contactarea_form {
+    display: block;
+    width: 100%;
+    height: 850px;
+    background-image: url(../img/background/contactarea.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.contactarea_text {
+    display: block;
+    text-align: center;
+    font-family: "GothamMedium", sans-serif;
+    font-size: 37px;
+    line-height: 45px;
+    margin-top: 225px;
+  
+}
+
+.contact_form {
+    margin-top: 145px;
+    text-align: center;
+}
+
+.name_form,        
+.email_form,
+.tel_form {
+    width: 350px;
+    height: 38px;
+    background-color: transparent;
+    color: #ffffff;
+    margin: 0 10px;
+    padding-left: 20px;
+    border: 1px solid #ffffff;
+   
+}
+
+.messege_form {
+    height: 30px;
+    width: 1147px;
+    background-color: transparent;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-top: 40px;
+    padding-bottom: 120px; 
+    border: 1px solid #ffffff;
+}
+
+.submit_form {
+    margin-top: 45px;
+    width: 227px;
+    background-color: #11749e;
+    color: #ffffff;
+    font-family: "GothamMedium", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 28px;
+    padding-top: 20px;
+    border: none;
+}
+
+.map {
+    display: block;
+    width: 100%;
+    height: 330px;
+    background-image: url(../img/background/map.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100%;  
+}
+
+#contact_form .messege_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .tel_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .email_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+}
+
+#contact_form .name_form:focus {
+    background-color: rgba(76, 77, 76, 0.6);
+} 
+
+/*footer*/
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    display: block;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.img_design {
+    display: block;
+    float: right;
+    padding-top: 10px;
+    
+}
+
+
