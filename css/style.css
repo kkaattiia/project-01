@@ -285,6 +285,7 @@ h1 {
     background-color: #11749e;
 }
 
+
 /*about*/
 
 .about,
@@ -422,11 +423,11 @@ h1 {
 }
 
 .news1_1 {
-    display: block;
+    display: flex;
     float: left;
     width: 50%;
     height: 447px;
-    
+    justify-content: flex-end;
 }
 
 .img_news1 {
@@ -462,7 +463,8 @@ h1 {
 .news1_text {
     display: block;
     padding-top: 80px;
-    padding-left: 200px;
+    padding-right: 115px;
+    
     
 }
 
