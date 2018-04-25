@@ -178,7 +178,7 @@
     left: 0;
     right: 0;
     
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(22, 22, 22, 0.75);
     z-index: 1;
     transition: background-color 3s;
     border-bottom: none;
@@ -465,8 +465,11 @@ h1 {
     display: block;
     padding-top: 80px;
     padding-right: 115px;
-    
-    
+}
+
+.news1_text:hover {
+    color: #2e85aa;
+    transition: 3s;
 }
 
 .news2_text {
@@ -475,6 +478,12 @@ h1 {
     padding-left: 75px;
     color: #000000;
 }
+
+.news2_text:hover {
+    color: #2e85aa;
+    transition: 3s;
+}
+
 
 .time_news {
     font-size: 13px;
@@ -488,8 +497,6 @@ h1 {
 }
 
 .title_news {
-    display: block;
-    width: 205px;
     font-family: "GothamMedium", sans-serif;
     font-size: 25px;
     line-height: 36px;
@@ -582,6 +589,11 @@ h1 {
     background-position: -810px 0;
 }
 
+.linck_blog {
+    text-decoration: none;
+}
+
+
 .blog_title {
     font-size: 18px;
     line-height: 36px;
@@ -592,6 +604,12 @@ h1 {
 .blog_text {
     font-size: 15px;
     line-height: 24px;
+    color: #000000;
+}
+
+.blog_text:hover {
+    color: #2e85aa;
+    transition: 1s;
 }
     
 /*quiqaction*/
@@ -654,8 +672,10 @@ h1 {
     display: block;
     height: 850px;
     background: url(../img/background/keyfeature.jpg);
-    overflow: hidden;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 850px;
+    
 }
 .feature_conteiner {
     display: block;
@@ -699,13 +719,22 @@ h1 {
 }
 
 .key1 {
-    width: 360px;
-    
+    width: 360px;  
+}
+
+.key1:hover {
+    transform: translateX(60px);
+    transition: 1s;
 }
 
 .key2 { 
     width: 390px;
     margin-top: 20px;
+}
+
+.key2:hover {
+    transform: translate(30px);
+    transition: 1s;
 }
 
 .key3 {
@@ -833,9 +862,7 @@ h1 {
 
 .name_container:hover {
     border: 2px solid #cccccc;
-    filter: invert(5%);
-    opacity: (70%);
-    
+    filter: invert(5%);    
 }
 
 .name_container.two {
@@ -951,6 +978,12 @@ h1 {
     border: none;
 }
 
+.submit_form:hover {
+    font-size: 30px;
+    transition: 1s;
+    
+}
+
 .map {
     display: block;
     width: 100%;
@@ -959,6 +992,11 @@ h1 {
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: 100%;  
+}
+
+.map:hover {
+    filter: contrast(120%);
+    transition: 2s;
 }
 
 #contact_form .messege_form:focus {
